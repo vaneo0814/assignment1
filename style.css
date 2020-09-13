@@ -48,7 +48,20 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
+}
+
+.hero {
+    display: block;
+    height: 800px;
+    width: 1400px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
 }
 
 .float-left {
@@ -191,8 +204,6 @@ p {
     font-size: 20px;
 }
 
-.benefits p {
+p.benefits {
     text-align: center;
-}
-
 }
